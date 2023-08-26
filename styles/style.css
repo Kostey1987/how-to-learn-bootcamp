@@ -90,6 +90,7 @@ content:' \2192';
 }
 
 .two-columns{
+
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -162,7 +163,6 @@ content:' \2192';
 }
 
 .table__cell {
-  
 }
 
 .table__cell_place_digits {
@@ -192,7 +192,6 @@ content:' \2192';
 }
 
 .feynman__title {  
-  /* padding-top:100px; */
   position: relative;
   text-align: center;
   width: 648px;
@@ -309,18 +308,23 @@ content:' \2192';
  .footer {
   box-sizing: border-box;
   min-height: 350px;
+  box-sizing: border-box;
+  min-height: 350px;
   padding: 60px 0 40px 0;
   background-color: #1f1f1f;
  }
 
  .footer__columns {
-  
   display: flex;
   justify-content: center;
   background-color:#1f1f1f;
   color: #f2f2f2;
   position: relative;
   justify-content: space-between;
+ }
+
+ .footer__column {
+  min-height: 350px;
  }
 
  .footer__column {
