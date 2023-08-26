@@ -179,7 +179,7 @@ content:' \2192';
 }
 
 .table__heading_place_digits {
- margin: 0  ;
+ margin: 0;
  line-height: 1.15;
  font-size: 24px;
  font-weight: 600;
@@ -203,10 +203,6 @@ content:' \2192';
   top: 100px;
 }
 
-.feyman__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
 
 .image_feynman {
   position: absolute;
@@ -233,6 +229,8 @@ content:' \2192';
   font-weight: normal;
   right: 48px;
   top: 50%;
+  color: #2f80ed;
+  text-decoration: none;
   
 }
 
@@ -321,11 +319,8 @@ content:' \2192';
  }
 
  .footer__column {
-  min-height: 350px;
- }
-
- .footer__column {
   display: flex;
+  min-height: 350px;
  }
 
  .footer__logo_place_footer {
