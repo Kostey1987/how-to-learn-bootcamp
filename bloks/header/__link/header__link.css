@@ -1,0 +1,13 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none; 
+}
+
+.header__link:hover {
+  filter:opacity(50%);
+  transition: 0.5s;
+}
+
+.header__link::after {
+  content:' \2192';
+}

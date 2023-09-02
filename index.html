@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body class="page">
@@ -16,7 +15,7 @@
       <a href="#" class="header__link">Узнать</a>
     </h2>
     <div class="header__main-illustration">
-      <img class="main-illustration_img" src="./images/header-image.png" alt="header-image"> 
+      <img class="main-illustration_img" src="./images/header-image.png" alt="опять двойка"> 
     </div> 
     <div class="header__square-pic"></div>  
   </header>
@@ -29,7 +28,7 @@
       <div class="two-columns__main-text">
       <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учать тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,чтобы лучше сдать тест,но часто в итоге это не даёт нам реального знания.Зубрёжка быстро выветривается и не приносит пользы.</p>
       <p class="two-columns__paragraph">
-        <span class="main-text__span">Вывод: </span>
+        <span class="two-columns__span-accent">Вывод: </span>
         Учиться тоже нужно уметь, но почему-то этому мало где учат. Что с ним делать?</p>
       <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффеткивным и захватывающим.Эти же техники применяются на примере обучения в Практикуме.</p>
       </div>
@@ -72,8 +71,8 @@
     <h2 class="section-title">Видео на TED</h2>
     <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
      <div class="video__iframes">
-      <div class="video__iframe"><iframe width="515" height="350" src="https://www.youtube.com/embed/arj7oStGLkU?si=KVlQeCaqL7ZZaAwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-      <div class="video__iframe"><iframe width="515" height="350" src="https://www.youtube.com/embed/5MgBikgcWnY?si=HM61RKvP6DkaP5hm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU?si=KVlQeCaqL7ZZaAwL" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY?si=HM61RKvP6DkaP5hm" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
      </div>
   </section>
 
@@ -86,10 +85,8 @@
     </div>
   </section>
 
- 
-
   <section class="feynman">
-    <div class="img_feynman"></div>
+    <div class="feynman__img"></div>
     <h2 class="feynman__title">Метод Фейнмана</h2>
     <p class="feynman__subtitle">Выучить и не забыть</p>
     <a href="#" class="feyman__link">Подробнее</a>
@@ -204,10 +201,10 @@
     <h2 class="section-title">Полезные ресурсы</h2>
     <p class="section-subtitle">Больше материалов о техниках и лайфхаков обучения</p>
     <div class="resources__logo-zone">
-      <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt="" class="resources__logo"></a>
-      <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" alt="" class="resources__logo"></a>
-      <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" alt="" class="resources__logo"></a>
-      <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" alt="" class="resources__logo"></a>
+      <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt="арзамас" class="resources__logo"></a>
+      <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" alt="н1" class="resources__logo"></a>
+      <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" alt="стрелка" class="resources__logo"></a>
+      <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" alt="полька" class="resources__logo"></a>
     </div>
   </section>
   </div>
@@ -215,16 +212,16 @@
 
   <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__column footer__column_content_copyright"><div class="logo logo_place_footer"><img src="./images/logo_place_footer.svg" alt="логоти_подвал"></div>
-      <p class="footer__author">&copy; Константин Самохин</p>
+      <div class="footer__column footer__column_content_copyright"><div class="logo logo_place_footer"></div>
+      <p class="footer__author">&copy;Константин Самохин</p>
       </div>
       <div class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О практикуме</h3>
         <nav>
           <ul class="footer__column-links">
-             <li><a class ="footer__column_link" href="#">Главная</a></li>
-             <li><a class ="footer__column_link" href="#">Концепция</a></li>
-             <li><a class ="footer__column_link" href="#">Наставники</a></li>
+             <li><a class ="footer__column-link" href="#">Главная</a></li>
+             <li><a class ="footer__column-link" href="#">Концепция</a></li>
+             <li><a class ="footer__column-link" href="#">Наставники</a></li>
           </ul>
         </nav>
       </div>
@@ -232,13 +229,13 @@
         <h3 class="footer__column-heading">Соцсети</h3>
         <nav>
           <ul class="footer__column-links">
-             <li><a class ="footer__column_link" href="#"><img class="footer__social-icon" alt="YouTube" src="./images/youtube-icon.svg">YouTube</a></li>
-             <li><a class ="footer__column_link" href="#"><img class="footer__social-icon" alt="ВКонтакте" src="./images/vk_color_white.svg">ВКонтакте</a></li>
-             <li><a class ="footer__column_link" href="#"><img class="footer__social-icon" alt="TikTok" src="./images/tiktok-icon.svg">TikTok</a></li>
+             <li><a class ="footer__column-link" href="#"><img class="footer__social-icon" alt="YouTube" src="./images/youtube-icon.svg">YouTube</a></li>
+             <li><a class ="footer__column-link" href="#"><img class="footer__social-icon" alt="ВКонтакте" src="./images/vk_color_white.svg">ВКонтакте</a></li>
+             <li><a class ="footer__column-link" href="#"><img class="footer__social-icon" alt="TikTok" src="./images/tiktok-icon.svg">TikTok</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </footer>
-</body>
+  </body>
 </html>
