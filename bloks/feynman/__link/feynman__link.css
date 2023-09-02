@@ -1,4 +1,4 @@
-.feyman__link {
+.feynman__link {
   position: absolute;
   line-height: 51px;
   font-size: 36px;
@@ -9,11 +9,11 @@
   text-decoration: none;
 }
 
-.feyman__link:hover {
+.feynman__link:hover {
   filter:opacity(50%);
   transition: 0.5s;
 }
 
-.feyman__link::after {
+.feynman__link::after {
   content:' \2192';
 }
